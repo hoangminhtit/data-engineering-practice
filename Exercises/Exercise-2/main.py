@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 
 class Bai2:
-    def __init__(self, base_url, target_date, output_folder="Exercises/Exercise-2"):
+    def __init__(self, base_url, target_date, output_folder="/var/tmp/app/Exercise-2"):
         self.base_url = base_url
         self.target_date = target_date
         self.target_datetime = datetime.strptime(target_date, "%Y-%m-%d %H:%M")

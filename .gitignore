@@ -1,3 +1,6 @@
 *.idea*
 *.DS_Store*
 *postgres-data*
+/downloads/
+Exercises/Exercise-2/*.csv
+Exercises/Exercise-4/*.csv
