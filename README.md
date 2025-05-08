@@ -1,5 +1,29 @@
-Kim Đức Trí - 23673721
+1. Kim Đức Trí - 23673721 <br>
+2. Nguyễn Văn Hùng - 23668291 <br>
+3. Võ Lê Hoàng Minh - 23646891 
 
-Võ Lê Hoàng Minh - 23646891
+----
+  # BÁO CÁO KẾT QUẢ LAB7, LAB8
 
-Nguyễn Văn Hùng - 23668291
+<p>Kết quả chạy pipeline:</p>
+
+**Bài 1:**
+![Screenshot 2025-05-08 222639](https://github.com/user-attachments/assets/ef55449c-faae-46ac-8c54-7fbb313a85bf)
+> Thu thập được các file dữ liệu từ link trong urls được cho và có https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2220_Q1.zip bị lỗi nên không thể thu thập dữ liệu từ link này.
+
+**Bài 2:**
+![Screenshot 2025-05-08 223412](https://github.com/user-attachments/assets/892f71aa-05a2-4561-bb02-a82ffebb808d)
+> Thu thập được dữ liệu từ trang web với các yêu cầu được cho và tìm được `HourlyDryBulbTemperature` với thư viện pandas.
+
+**Bài 3:**
+![Screenshot 2025-05-08 223711](https://github.com/user-attachments/assets/4dd976a2-5dd0-4565-a57b-e666b61a0139)
+> Truy cập vào trang web và in ra những thông tin của file zip sau khi giải nén.
+
+**Bài 4:** <br>
+![image](https://github.com/user-attachments/assets/e8a14b83-fe4b-4196-8f49-df3fc3c32c89)
+> Đọc dữ liệu từ các file .json nằm ở các thư mục khác nhau và ghi vào file .csv với các trường dữ liệu từ file .json.
+
+**Bài 5:**
+![Screenshot 2025-05-08 230557](https://github.com/user-attachments/assets/9ebdbc94-0dfb-43a3-bd82-249c37ed96ec)
+![Screenshot 2025-05-08 231119](https://github.com/user-attachments/assets/12201798-930e-4692-8b58-06d13b402484)
+> Dữ liệu được ghi thành công vào các bảng trong Postgres và sử dụng pgAdmin để test truy vấn, kiểm tra dữ liệu được chèn vào có đúng theo các bảng hay không.
