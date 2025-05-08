@@ -1,41 +1,14 @@
 ## Exercise #5 - Data Modeling for Postgres + Python.
 
-In this fifth exercise you will work on a few different topics,
-data modeling, Python, and Postgres. These are common problems worked 
-on in data engineering.
+**- Các hàm thực hiện kết nối, tạo bảng, truy vấn dữ liệu:**
+<br>
+![Screenshot 2025-05-08 230824](https://github.com/user-attachments/assets/16583c30-e11d-4f1b-975f-8eca92ad3794)
+![image](https://github.com/user-attachments/assets/2af74a52-9731-4c84-9589-fe83f9954301)
+![Screenshot 2025-05-08 230824](https://github.com/user-attachments/assets/afa96769-77de-4e4e-82f0-67ccb9aa4b74)
 
-#### Setup
-1. Change directories at the command line 
-   to be inside the `Exercise-5` folder `cd Exercises/Exercise-5`
-   
-2. Run `docker build --tag=exercise-5 .` to build the `Docker` image.
+**- Sau khi thực hiện code**
+![image](https://github.com/user-attachments/assets/d2b0a4aa-b147-4ab0-9c79-e4b6e59a1f5c)
 
-3. There is a file called `main.py` in the `Exercise-5` directory, this
-is where you `Python` code to complete the exercise should go.
-   
-4. Once you have finished the project or want to test run your code,
-   run the following command `docker-compose up run` from inside the `Exercises/Exercise-5` directory
+**- Sử dụng pgAdmin để truy vấn hệ cơ sở dữ liệu:**
+![image](https://github.com/user-attachments/assets/356f9f6f-4c4b-4b2b-859d-bac04771ab55)
 
-#### Problems Statement
-There is a folder called `data` in this current directory, `Exercises/Exercise-5`. There are also
-3 `csv` files located in that folder. Open each one and examine it, the 
-first task is to create a `sql` script with the `DDL` to hold
-a `CREATE` statement for each data file. Remember to think about data types. 
-Also, this `CREATE` statements should include indexes for each table, as well
-as primary and foreign keys.
-
-After you have finished this `sql` scripts, we must connect to `Postgres` using the `Python` package
-called `psycopg2`. Once connected we will run our `sql` scripts against the database.
-
-Note: The default `main.py` script already has the Python connection configured to connect
-to the `Postgres` instance that is automatically spun up by `Docker` when you ran
-the `docker-compose up run` command (inside `Exercises/Exercise-5` directory).
-
-Finally, we will use `psycopg2` to insert the data in each `csv` file into the table you created.
-
-Generally, your script should do the following ...
-1. Examine each `csv` file in `data` folder. Design a `CREATE` statement for each file.
-2. Ensure you have indexes, primary and forgein keys.
-3. Use `psycopg2` to connect to `Postgres` on `localhost` and the default `port`.
-4. Create the tables against the database.
-5. Ingest the `csv` files into the tables you created, also using `psycopg2`.
