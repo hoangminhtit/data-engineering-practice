@@ -7,6 +7,9 @@
 
 <p>Kết quả chạy pipeline:</p>
 
+![image](https://github.com/user-attachments/assets/24e95350-f4a3-45cc-8467-db25d70f993b)
+> Ở lần chạy cuối cùng pipeline đã tự động chạy được từ bài 1 đến bài 7.
+
 **Bài 1:**
 ![Screenshot 2025-05-08 222639](https://github.com/user-attachments/assets/ef55449c-faae-46ac-8c54-7fbb313a85bf)
 > Thu thập được các file dữ liệu từ link trong urls được cho và có https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2220_Q1.zip bị lỗi nên không thể thu thập dữ liệu từ link này.
@@ -27,3 +30,13 @@
 ![Screenshot 2025-05-08 230557](https://github.com/user-attachments/assets/9ebdbc94-0dfb-43a3-bd82-249c37ed96ec)
 ![Screenshot 2025-05-08 231119](https://github.com/user-attachments/assets/12201798-930e-4692-8b58-06d13b402484)
 > Dữ liệu được ghi thành công vào các bảng trong Postgres và sử dụng pgAdmin để test truy vấn, kiểm tra dữ liệu được chèn vào có đúng theo các bảng hay không.
+
+**Bài 6:**
+![Screenshot 2025-05-09 001609](https://github.com/user-attachments/assets/4c19edb6-26b0-40ab-956a-fc41e96a80d0)
+![Screenshot 2025-05-09 001627](https://github.com/user-attachments/assets/611434c3-1235-44b1-9add-a823f9bc43d3)
+![Screenshot 2025-05-09 001641](https://github.com/user-attachments/assets/7d19b692-7cad-4dfc-8596-52910873a6bb)
+> Giải nén thành công dữ liệu từ file zip, sử dụng pyspark để thực hiện các yêu cầu và lưu mỗi câu trả lời vào file resports.csv
+
+**Bài 7:**
+![image](https://github.com/user-attachments/assets/4fd18074-3f80-4ca9-ae42-24bff2e06173)
+> Sử dụng pyspark để thực hiện các yêu cầu, hiển thị output của 20 dòng đầu trong file.
