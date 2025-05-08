@@ -75,8 +75,8 @@ def trip_count_per_day(df, output_folder):
 
 
 def main():
-    data_folder = "data"
-    output_folder = "reports"
+    data_folder = "/var/tmp/app/Exercise-6/data"
+    output_folder = "/var/tmp/app/Exercise-6/reports"
     os.makedirs(output_folder, exist_ok=True)
 
     unzip_csv_files(data_folder)

@@ -9,7 +9,11 @@ services:
     ports:
       - 5432:5432
   data-extract-container:
+    build:
+      context: .             # dùng Dockerfile trong thư mục hiện tại
+      dockerfile: Dockerfile
     image: apache/airflow:2.3.0-python3.8
+    container_name: airflow-webserver
     volumes:
       - ./dags:/opt/airflow/dags
       - ./Exercises:/var/tmp/app

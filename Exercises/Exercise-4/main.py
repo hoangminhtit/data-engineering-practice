@@ -35,7 +35,7 @@ def main():
     with open(csv_file_path, "w", newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['name', 'id', 'nametype', 'recclass', 'mass', 'fall', 'year', 'reclat', 'reclong', 'geolocation_type', 'geolocation_coordinates'])                  
-        for dirpath, dirnames, filenames in os.walk(base_path):
+        for dirpath, dirnames, filenames in os.walk('/var/tmp/app/Exercise-4/data'):
             for filename in filenames:
                 if filename.endswith(".json"):
                     file_path = os.path.join(dirpath, filename)
