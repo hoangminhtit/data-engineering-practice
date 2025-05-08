@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y curl openjdk-11-jdk && \
 ENV SPARK_HOME=/opt/spark
 ENV PATH="${SPARK_HOME}/bin:${PATH}"
 USER airflow
+# 3. Cài thư viện Python cho Airflow
+# Sửa dòng này: cài từ /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
-
 
