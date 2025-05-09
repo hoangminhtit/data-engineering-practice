@@ -3,8 +3,22 @@
 3. Võ Lê Hoàng Minh - 23646891 
 
 ----
-  # BÁO CÁO KẾT QUẢ LAB7, LAB8
+  # BÁO CÁO KẾT QUẢ LAB8, LAB9
 
+# LAB8 - CASE 1
+<p>Kết quả chạy pipeline:</p>
+
+![image](https://github.com/user-attachments/assets/d21d0d33-433a-4c9a-8ecb-166c8663c47b)
+
+> Dữ liệu thu thập từ https://tradingeconomics.com/ được ghi trong file .csv
+![image](https://github.com/user-attachments/assets/07086900-b45f-4ddb-bb38-8428d1359b35)
+
+
+> Sau khi pipeline chạy thành công, log của task visualize_task đã in ra link dashboard:
+> - Truy cập tại https://charts.mongodb.com/charts-project-0-octxxbu/public/dashboards/ad6298d8-8fd3-476d-a4c6-c86ee18cc535
+---
+
+# LAB9
 <p>Kết quả chạy pipeline:</p>
 
 ![image](https://github.com/user-attachments/assets/24e95350-f4a3-45cc-8467-db25d70f993b)
