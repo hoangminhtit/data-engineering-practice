@@ -1,7 +1,1 @@
-beautifulsoup4
-pandas
-matplotlib
-wordcloud
-requests
-psycopg2-binary
-SQLAlchemy
+selenium==4.20.0
